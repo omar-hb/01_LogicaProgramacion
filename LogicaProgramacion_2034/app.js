@@ -35,7 +35,6 @@ maximosIntentos = Math.trunc((numeroMaximo - numeroMinimo)/5); //Para establecer
 alert(`Tienes ${maximosIntentos} intentos para adivinar el número secreto`);
 numeroSecreto = Math.floor((Math.random() + (numeroMinimo / numeroMaximo))*numeroMaximo)+1;
   console.log(`Número secreto: ${numeroSecreto}`);
-//numeroUsuario = parseInt(prompt(`Me indicas un número entre ${numeroMinimo} y ${numeroMaximo} por favor:`));
   console.log(`Número mínimo: ${numeroMinimo} , número máximo: ${numeroMaximo}`);
 //  console.log(numeroUsuario);  
 //
@@ -45,9 +44,7 @@ while (numeroUsuario != numeroSecreto) {
   //Original
   //numeroUsuario = parseInt(prompt("Me indicas un número entre 1 y 10 por favor:"));
   //Se agrega para el desafío del curso
-  //numeroUsuario = parseInt(prompt(`Me indicas un número entre ${numeroMinimo} y ${numeroMaximo} por favor:`));
-  //  console.log(`Número mínimo: ${numeroMinimo} , número máximo: ${numeroMaximo}`);
-  numeroUsuario = parseInt(prompt(`Me indicas un número entre ${numeroMinimo} y ${numeroMaximo} por favor:`));
+    numeroUsuario = parseInt(prompt(`Me indicas un número entre ${numeroMinimo} y ${numeroMaximo} por favor:`));
     console.log(`Número usuario: ${numeroUsuario}`);
   //
   //console.log(numeroUsuario);
